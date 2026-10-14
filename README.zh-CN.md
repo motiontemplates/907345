@@ -24,6 +24,10 @@
 - **必需:** Words：文字内容，3 项。
 - **必需:** Info：文字内容，3 项。
 - **可选:** 配色：5 个 #RRGGBB 格式颜色。可沿用模板默认配色，也可以准备自己的配色。
+- **必需:** Soundtrackmode：文字。
+- **必需:** Voiceovermode：文字。
+- **必需:** Voiceover：文字，不超过 240 个字符。
+- **可选:** Music：文字，不超过 240 个字符。
 
 Make the user's photos into the existing visual composition; retain every original effect and time cue..
 

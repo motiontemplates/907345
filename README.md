@@ -24,6 +24,10 @@ Recompose four photos as geometric shapes across three Bauhaus-inspired animated
 - **Required:** Words: text entries, 3 items.
 - **Required:** Info: text entries, 3 items.
 - **Optional:** Color palette: 5 colors in #RRGGBB format. You can keep the supplied palette or choose your own.
+- **Required:** Soundtrackmode: text. New videos use external-music (current API/user music + source effects). No music means effects-only; none mutes music and effects. template-score only preserves an explicitly approved existing score. Voice is independent..
+- **Required:** Voiceovermode: text.
+- **Required:** Voiceover: text, up to 240 characters.
+- **Optional:** Music: text, up to 240 characters. For external-music, a nonempty relative path under --inputs to this production's prepared background.wav; other modes require an empty or absent music path..
 
 Make the user's photos into the existing visual composition; retain every original effect and time cue..
 
