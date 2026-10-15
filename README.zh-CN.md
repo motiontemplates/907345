@@ -1,60 +1,59 @@
-<a href="https://motiongit.com/@prism-studio/visual-art-c-collage"><img src="assets/hero.svg" alt="MotionGit · template 907345" width="100%"></a>
+<a href="https://motiongit.com/@prism-studio/visual-art-c-collage"><img src="assets/hero.svg" alt="MotionGit · 几何拼贴 · 动态海报" width="100%"></a>
 
 # 几何拼贴 · 动态海报
 
 将四张照片裁成几何形状，在三组包豪斯动态海报中重组，适合活动与视觉主题展示。
 
-**16:9 · 1920 × 1080 · 13s · 60 fps** &nbsp; / &nbsp; [@prism-studio](https://motiongit.com/@prism-studio)
+**16:9 · 1920 × 1080 · 60 fps · v2.5.1** · [@prism-studio](https://motiongit.com/@prism-studio) · [English](README.md)
 
-[**到 MotionGit 获取模板 ↗**](https://motiongit.com/@prism-studio/visual-art-c-collage) · [English](README.md)
+**[模板详情、完整 .motion 与 Demo](https://motiongit.com/@prism-studio/visual-art-c-collage)**
+https://motiongit.com/@prism-studio/visual-art-c-collage
 
-> 下载已开放 · 许可以官网为准. 开放状态以官网为准；先注册、登录，在下载开放后获取自己的 .motion。
+下载已开放，当前许可见模板页面与下载包。
 
 ## Demo
 
-[![Animated preview](assets/preview.gif)](https://motiontemplates.github.io/907345/)
+[![动画预览](assets/preview.gif)](https://motiontemplates.github.io/907345/zh.html)
 
-[观看官网样片](https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4)
+[查看完整样片](https://motiongit.com/@prism-studio/visual-art-c-collage) · [播放视频](https://media.openaicut.com/previews/617/draft-en-b232ff8db7c6.mp4)
 
-![公开样片截图](assets/compositions.jpg)
+![模板构图与动效细节](assets/compositions.jpg)
 
-## 准备什么
+## 技术原理
 
-- **必需:** Photos：图片，4 项。
-- **必需:** Words：文字内容，3 项。
-- **必需:** Info：文字内容，3 项。
-- **可选:** 配色：5 个 #RRGGBB 格式颜色。可沿用模板默认配色，也可以准备自己的配色。
-- **必需:** Soundtrackmode：文字。
-- **必需:** Voiceovermode：文字。
-- **必需:** Voiceover：文字，不超过 240 个字符。
-- **可选:** Music：文字，不超过 240 个字符。
+- 声明的运行配置：html-canvas/1。
+- 通过模板参数和预设，将本期文字、数据或素材映射到已有动画工程。
+- 已声明时间轴为固定时长，本期内容按现有场景顺序和节奏适配。
 
-Make the user's photos into the existing visual composition; retain every original effect and time cue..
+样片时长: **13s**. 已声明输出为 1920 × 1080，60 fps；公开样片 13 秒。 按实际包的参数边界制作；增加素材不会自动增加场景。
 
-## 让 AI 引导你
+## 输入素材与内容
 
-把仓库地址和这段话发给 Codex、豆包或其他助手：
+- **必需:** 这次要呈现的照片与作品标题。已声明照片输入为 4 张。
+- **可选:** 本期已授权配乐，或本期是否需要配乐的偏好。
+- **可选:** 本期配音文件，或是否需要配音的安排。
 
-```text
-https://github.com/motiontemplates/907345
-引导我用这个模板开始制作。帮我准备素材，到 MotionGit 注册并在开放后下载 .motion，再按实际模板检查依赖，先审阅计划和预览。
-```
+适用内容: Make the user's photos into the existing visual composition; retain every original effect and time cue.
 
-**AI 助手：**先读 [制作引导](ASSISTANT.zh-CN.md)，引导用户到上面的官网模板页面获取真实包。尚未开放时先整理简报与素材。
-
-## 制作环境
+## 运行环境
 
 - 模板声明使用 Python 和 Node.js。具体工具与版本以下载包为准。
 - 按下载包的依赖锁和 setup/check 说明检查已有工具，只补齐缺项，并验证预览。
 
-首次配置可能较久。让助手先检查已有环境，只补齐缺项并验证短预览，后续复用。
+## 使用模板
 
-## 关于 .motion
+1. 从[模板页面](https://motiongit.com/@prism-studio/visual-art-c-collage)获取当前版本的完整 .motion。
+2. 按包内说明解压或加载，读取 README 和引用的制作指南。
+3. 使用本期内容与素材，复用已有环境，按包内入口制作并查看实际预览。
 
-MP4 是成片；**.motion 是可复用的视频制作模板**，将动画工程、内容槽位、素材、依赖与说明组织在一起，让你用自己的内容再次制作。 [格式协议 ↗](https://motiongit.com/spec)
+可将下面这段请求与仓库地址交给助手：
 
-MotionGit 还提供素材匹配、生图、配音与配乐查找等配套能力，按实际槽位、账号权限和报价使用。
+> https://github.com/motiontemplates/907345
+>
+> 请使用这个 .motion 模板制作。模板地址：https://motiongit.com/@prism-studio/visual-art-c-collage。取得模板后按其说明解压或加载，读取包内 README 和引用的指南，复用已有环境，用我的内容制作并展示实际预览。
 
----
+## .motion 格式
 
-本仓库发布介绍和公开样片；模板源码与个人下载包不在这里。实际制作从 [MotionGit](https://motiongit.com/@prism-studio/visual-art-c-collage).
+MotionGit .motion 是可复用的视频模板格式，组织动画工程、参数、素材、依赖与制作指南。运行时按本期内容再次制作，输出 MP4 等成片。 [格式说明](https://motiongit.com/spec)
+
+[版本、许可与完整下载](https://motiongit.com/@prism-studio/visual-art-c-collage) · [制作参考](ASSISTANT.zh-CN.md)
