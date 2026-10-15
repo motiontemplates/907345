@@ -5,7 +5,7 @@
   "owner": "prism-studio",
   "slug": "visual-art-c-collage",
   "website": "https://motiongit.com/@prism-studio/visual-art-c-collage",
-  "version": "2.5.3",
+  "version": "2.5.5",
   "technical": {
     "en": [
       "Declared runtime profile: html-canvas/1.",
