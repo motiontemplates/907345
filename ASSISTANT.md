@@ -3,7 +3,7 @@
 Recompose four photos as geometric shapes across three Bauhaus-inspired animated posters.
 
 Template & full download: https://motiongit.com/@prism-studio/visual-art-c-collage
-Version: 2.5.1
+Version: 2.5.3
 Download available; current terms are listed with the package.
 
 ## Technical reference
