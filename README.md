@@ -4,7 +4,7 @@
 
 Recompose four photos as geometric shapes across three Bauhaus-inspired animated posters.
 
-**16:9 · 1920 × 1080 · 60 fps · v2.5.5** · [@prism-studio](https://motiongit.com/@prism-studio) · [简体中文](README.zh-CN.md)
+**16:9 · 1920 × 1080 · 60 fps · v2.6.0** · [@prism-studio](https://motiongit.com/@prism-studio) · [简体中文](README.zh-CN.md)
 
 **[Template details, full .motion & demo](https://motiongit.com/@prism-studio/visual-art-c-collage)**
 https://motiongit.com/@prism-studio/visual-art-c-collage
