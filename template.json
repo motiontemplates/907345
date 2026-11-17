@@ -5,7 +5,7 @@
   "owner": "prism-studio",
   "slug": "visual-art-c-collage",
   "website": "https://motiongit.com/@prism-studio/visual-art-c-collage",
-  "version": "2.6.4",
+  "version": "2.6.5",
   "technical": {
     "en": [
       "Declared runtime profile: html-canvas/1.",
@@ -18,8 +18,8 @@
       "已声明时间轴为固定时长，本期内容按现有场景顺序和节奏适配。"
     ]
   },
-  "checkedAt": "2026-10-20",
-  "availability": "download-available",
+  "checkedAt": "2026-11-17",
+  "availability": "demo-only",
   "title": {
     "en": "Geometric Collage · Animated Poster",
     "zh": "几何拼贴 · 动态海报"
